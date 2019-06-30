@@ -1,0 +1,72 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /backend
+    session:
+      cookie:
+        name: ueboot-shiro
+spring:
+  cache:
+    type: redis
+    cache-names: systemCache
+  session:
+    store-type: redis
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+  jpa:
+    open-in-view: true
+    database: mysql
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+        format_sql: false
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+          javaZone: Asia/Shanghai
+          databaseZone: Asia/Shanghai
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    # 本地开发需要自己配置对应的数据库，采用加密方式
+    #url: ENC(azN5gtD4LMtsos/l7pvuBmzcQursb1W5K7Sn3chpKB+DA/Xa97M9kDhOU9yAXuIrDkQu8c0lyPEa2B9mmgIelIIcnCCi8zAFM07esAcpJDCkTdBUoe0GpZGx1t72M35Fbh4uTHiITiHFAcYhPes6Am0C60luD4mCc+7VeqXAR1fMdjnqmmtkZRw+CsVLYApt)
+    #url: ENC(Ycx1nxph1VZ2I2Bo3a95Kp1GwVdgU+QuYu9GmrOgH8JMPS453HaEp6Y5kpyX479F8PVQXrsCFAi5YZTZ/F61fgACdmXuI2LK5IzsqX+kyIc/gXIbgJIh4gsIqkzc/wLA2/cd6kmvuN8UUWeluMRIj1gfKnkaB+bHRekjbxQ1vboW6iYoKTN8EqYSQtsJB7By)
+    url: jdbc:mysql://192.227.131.172:3306/ueboot_shiro?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    username: root
+    # 加密后的密码
+    password: 123456
+    #password: ENC(xIOpQ585xlp0nREocHniEa/v5Ybdqx2W)
+    tomcat:
+      max-wait: 500
+      max-active: 200
+      initial-size: 5
+      max-idle: 5
+      min-idle: 5
+  redis:
+    #host: ENC(Fz+uDUi0xCUm50CIs9nUzzO5dRWLUzvo)
+    #host: 47.100.242.77
+    host: 192.227.131.172
+    password:
+    port: 6379
+    database: 1
+    timeout: 60s
+  data:
+    redis:
+      repositories:
+        enabled: false #设置为false,防止启动时提示Multiple Spring Data modules found, entering strict repository configuration mode
+logging:
+  level:
+    root: info
+    # 设置显示sql参数值
+#    org.hibernate: info
+#    org.hibernate.type.descriptor.sql.BasicBinder: trace
+#    org.hibernate.type.descriptor.sql.BasicExtractor: trace
+#jasypt:
+#  encryptor:
+#    # 加密用到的秘钥
+#    password: ueboot
