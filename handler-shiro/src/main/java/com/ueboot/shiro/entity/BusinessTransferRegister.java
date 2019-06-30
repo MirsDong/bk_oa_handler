@@ -22,7 +22,7 @@ public class BusinessTransferRegister {
     private long id;
 
     @Temporal (TemporalType.TIMESTAMP)
-    @Column(name = "DATA_HANDLER")
+    @Column(name = "DATE_HANDLER")
     @ApiModelProperty("交接日期")
     private Date dateHandler;
 
@@ -48,9 +48,9 @@ public class BusinessTransferRegister {
 
     @Column(name = "RECEIVER_STATUS")
     @ApiModelProperty("业务接收人审核：0-未审核，1审核通过")
-    private Integer receiverStatus;
+    private Integer receiverStatus = 0;
     @Column(name = "SUPERVISOR_STATUS")
     @ApiModelProperty("业务监交人审核：0-未审核，1审核通过")
-    private Integer supervisorStatus;
+    private Integer supervisorStatus = 0;
 
 }

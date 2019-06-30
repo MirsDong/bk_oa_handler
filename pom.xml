@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <name>handler-framework</name>
     <modules>
-        <module>handler-parent</module>
         <module>handler-core</module>
         <module>handler-shiro</module>
         <module>handler-cryption</module>
@@ -27,7 +26,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    
+
     <properties>
         <!--每次发布当前模块时，需要修改这里的版本号-->
         <ueboot.core.version>3.0.0-SNAPSHOT</ueboot.core.version>
