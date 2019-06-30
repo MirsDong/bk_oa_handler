@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ueboot</groupId>
-    <artifactId>ueboot-parent</artifactId>
+    <artifactId>handler-parent</artifactId>
     <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -88,19 +88,13 @@
         <!--ueboot核心框架-->
         <dependency>
             <groupId>com.ueboot</groupId>
-            <artifactId>ueboot-core</artifactId>
+            <artifactId>handler-core</artifactId>
             <version>${ueboot.core.version}</version>
-        </dependency>
-        <!--ueboot代码生成器-->
-        <dependency>
-            <groupId>com.ueboot</groupId>
-            <artifactId>ueboot-generator</artifactId>
-            <version>${ueboot.generator.version}</version>
         </dependency>
         <!--ueboot权限相关-->
         <dependency>
             <groupId>com.ueboot</groupId>
-            <artifactId>ueboot-shiro</artifactId>
+            <artifactId>handler-shiro</artifactId>
             <version>${ueboot.shiro.version}</version>
         </dependency>
         <dependency>
