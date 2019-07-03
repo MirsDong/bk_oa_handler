@@ -36,7 +36,8 @@ spring:
     # 本地开发需要自己配置对应的数据库，采用加密方式
     #url: ENC(azN5gtD4LMtsos/l7pvuBmzcQursb1W5K7Sn3chpKB+DA/Xa97M9kDhOU9yAXuIrDkQu8c0lyPEa2B9mmgIelIIcnCCi8zAFM07esAcpJDCkTdBUoe0GpZGx1t72M35Fbh4uTHiITiHFAcYhPes6Am0C60luD4mCc+7VeqXAR1fMdjnqmmtkZRw+CsVLYApt)
     #url: ENC(Ycx1nxph1VZ2I2Bo3a95Kp1GwVdgU+QuYu9GmrOgH8JMPS453HaEp6Y5kpyX479F8PVQXrsCFAi5YZTZ/F61fgACdmXuI2LK5IzsqX+kyIc/gXIbgJIh4gsIqkzc/wLA2/cd6kmvuN8UUWeluMRIj1gfKnkaB+bHRekjbxQ1vboW6iYoKTN8EqYSQtsJB7By)
-    url: jdbc:mysql://192.227.131.172:3306/ueboot_shiro?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    #url: jdbc:mysql://192.227.131.172:3306/ueboot_shiro?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/ueboot_shiro?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
     username: root
     # 加密后的密码
     password: 123456

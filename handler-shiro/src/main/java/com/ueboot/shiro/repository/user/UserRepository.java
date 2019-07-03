@@ -1,6 +1,6 @@
 package com.ueboot.shiro.repository.user;
 
-import com.ueboot.core.repository.BaseRepository;
+import com.ueboot.shiro.core.repository.BaseRepository;
 import com.ueboot.shiro.entity.User;
 import org.springframework.stereotype.Repository;
 

@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-@ComponentScan(value = {"com.ueboot.core","com.ueboot.shiro"})
+@ComponentScan(value = {"com.ueboot.shiro.core","com.ueboot.shiro"})
 public class ShiroLocalStartApplication {
     public static void main(String[] args) {
         SpringApplication.run(ShiroLocalStartApplication.class, args);

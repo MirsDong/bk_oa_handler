@@ -5,7 +5,7 @@
 */
 package com.ueboot.shiro.service.resources;
 
-import com.ueboot.core.service.BaseService;
+import com.ueboot.shiro.core.service.BaseService;
 import com.ueboot.shiro.entity.Resources;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

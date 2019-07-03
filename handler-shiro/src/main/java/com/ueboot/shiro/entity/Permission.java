@@ -1,13 +1,12 @@
 package com.ueboot.shiro.entity;
 
 
-import com.ueboot.core.entity.AbstractVersionEntity;
+import com.ueboot.shiro.core.entity.AbstractVersionEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 /**
  * 角色与菜单资源之间的关系（设定用户的权限）

@@ -5,8 +5,8 @@
 */
 package com.ueboot.shiro.service.user;
 
+import com.ueboot.shiro.core.service.BaseService;
 import com.ueboot.shiro.entity.User;
-import com.ueboot.core.service.BaseService;
 
 /**
  * Created on 2018-08-14 10:47:55

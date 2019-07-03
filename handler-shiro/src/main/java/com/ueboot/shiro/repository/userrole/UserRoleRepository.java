@@ -5,8 +5,8 @@
 */
 package com.ueboot.shiro.repository.userrole;
 
+import com.ueboot.shiro.core.repository.BaseRepository;
 import com.ueboot.shiro.entity.UserRole;
-import com.ueboot.core.repository.BaseRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

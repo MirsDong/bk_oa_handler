@@ -5,8 +5,8 @@
 */
 package com.ueboot.shiro.controller.organization;
 
-import com.ueboot.core.http.response.Response;
 import com.ueboot.shiro.controller.organization.vo.*;
+import com.ueboot.shiro.core.http.response.Response;
 import com.ueboot.shiro.entity.Organization;
 import com.ueboot.shiro.service.organization.OrganizationService;
 import lombok.extern.slf4j.Slf4j;
