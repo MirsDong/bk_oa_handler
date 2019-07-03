@@ -5,8 +5,8 @@
 */
 package com.ueboot.shiro.service.userrole;
 
+import com.ueboot.shiro.core.service.BaseService;
 import com.ueboot.shiro.entity.UserRole;
-import com.ueboot.core.service.BaseService;
 
 import java.util.List;
 

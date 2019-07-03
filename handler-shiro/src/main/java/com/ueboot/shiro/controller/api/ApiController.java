@@ -2,9 +2,9 @@ package com.ueboot.shiro.controller.api;
 
 
 import com.alibaba.fastjson.JSON;
-import com.ueboot.core.exception.BusinessException;
-import com.ueboot.core.http.response.Response;
-import com.ueboot.core.utils.CaptchaUtils;
+import com.ueboot.shiro.core.exception.BusinessException;
+import com.ueboot.shiro.core.http.response.Response;
+import com.ueboot.shiro.core.utils.CaptchaUtils;
 import com.ueboot.shiro.entity.Resources;
 import com.ueboot.shiro.entity.User;
 import com.ueboot.shiro.service.resources.ResourcesService;

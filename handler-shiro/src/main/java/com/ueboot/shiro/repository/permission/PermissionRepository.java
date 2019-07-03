@@ -5,8 +5,8 @@
 */
 package com.ueboot.shiro.repository.permission;
 
+import com.ueboot.shiro.core.repository.BaseRepository;
 import com.ueboot.shiro.entity.Permission;
-import com.ueboot.core.repository.BaseRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

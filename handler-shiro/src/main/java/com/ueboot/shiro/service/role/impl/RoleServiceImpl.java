@@ -5,12 +5,12 @@
  */
 package com.ueboot.shiro.service.role.impl;
 
+import com.ueboot.shiro.core.repository.BaseRepository;
+import com.ueboot.shiro.core.service.impl.BaseServiceImpl;
 import com.ueboot.shiro.entity.Permission;
 import com.ueboot.shiro.entity.Role;
-import com.ueboot.core.repository.BaseRepository;
 import com.ueboot.shiro.repository.permission.PermissionRepository;
 import com.ueboot.shiro.repository.role.RoleRepository;
-import com.ueboot.core.service.impl.BaseServiceImpl;
 import com.ueboot.shiro.repository.userrole.UserRoleRepository;
 import com.ueboot.shiro.service.role.RoleService;
 import lombok.extern.slf4j.Slf4j;

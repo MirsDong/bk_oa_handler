@@ -1,7 +1,7 @@
 package com.ueboot.shiro.controller.business;
 
-import com.ueboot.core.http.response.Response;
 import com.ueboot.shiro.controller.business.vo.BusTransRegisterVo;
+import com.ueboot.shiro.core.http.response.Response;
 import com.ueboot.shiro.entity.BusinessTransferRegister;
 import com.ueboot.shiro.service.business.BusTransRegisterService;
 import io.swagger.annotations.ApiOperation;

@@ -5,10 +5,10 @@
  */
 package com.ueboot.shiro.controller.permission;
 
-import com.ueboot.core.http.response.Response;
 import com.ueboot.shiro.controller.permission.vo.PermissionFindReq;
 import com.ueboot.shiro.controller.permission.vo.PermissionReq;
 import com.ueboot.shiro.controller.permission.vo.PermissionResp;
+import com.ueboot.shiro.core.http.response.Response;
 import com.ueboot.shiro.entity.Permission;
 import com.ueboot.shiro.service.permission.PermissionService;
 import com.ueboot.shiro.shiro.ShiroEventListener;

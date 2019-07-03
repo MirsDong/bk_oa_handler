@@ -1,13 +1,11 @@
 package com.ueboot.shiro.entity;
 
-import com.ueboot.core.entity.AbstractVersionEntity;
-import lombok.EqualsAndHashCode;
+import com.ueboot.shiro.core.entity.AbstractVersionEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 
 /**

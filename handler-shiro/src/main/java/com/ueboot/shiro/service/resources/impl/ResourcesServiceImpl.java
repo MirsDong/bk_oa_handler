@@ -5,8 +5,8 @@
  */
 package com.ueboot.shiro.service.resources.impl;
 
-import com.ueboot.core.repository.BaseRepository;
-import com.ueboot.core.service.impl.BaseServiceImpl;
+import com.ueboot.shiro.core.repository.BaseRepository;
+import com.ueboot.shiro.core.service.impl.BaseServiceImpl;
 import com.ueboot.shiro.entity.Permission;
 import com.ueboot.shiro.entity.Resources;
 import com.ueboot.shiro.entity.UserRole;
